@@ -6,6 +6,6 @@
 <body>
     <h1>Tabela</h1>
     <p>Tutaj będzie tabela</p>
-    <p><a href="index.html">Powrót do strony głównej</a></p>
+    <p><a href="https://kejpy.github.io/index.html/">Powrót do strony głównej</a></p>
 </body>
 </html>
