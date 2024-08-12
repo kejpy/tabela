@@ -59,8 +59,9 @@
             border-left: 1px dashed red;
             border-right: 1px dashed red;
             border-bottom: 1px dashed red;
+            border-top: none;
             color: red;
-            font-size: 10px;
+            font-size: 6px;
             font-style: italic;
             text-decoration: underline;
             font-family: 'Aptos Narrow', sans-serif;
@@ -87,6 +88,16 @@
         .dark-purple-text {
             color: darkviolet;
         }
+        .purple-text {
+            color: purple;
+        }
+        .header-text {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .default-text {
+            font-size: 10px;
+        }
         .title-text {
             font-size: 15px;
             font-weight: bold;
@@ -101,11 +112,11 @@
 </head>
 <body>
     <h1>Tabela</h1>
-    <table>
+    <table border="2" cellspacing="2" cellpadding="8">
         <caption class="title-text">Tabela z Połączonymi Wierszami i Stylizacją</caption>
         <thead>
             <tr>
-                <th colspan="6" class="merged-top">Dane komputerowe - Kacper Wawrzyniak - Pekar 2TGIg2</th>
+                <th colspan="6" class="merged-top">Dane komputerowe - Kacper Wawrzyniak- Pekar 2TGIg2</th>
             </tr>
         </thead>
         <tbody>
@@ -120,8 +131,8 @@
             <tr class="highlighted-34">
                 <td class="blue-text">Dell XPS 15</td>
                 <td class="dark-red-text">Intel Core i7-12700H</td>
-                <td rowspan="2" class="light-red-text white-background left-align">16 GB</td>
-                <td rowspan="2" class="brown-text white-background right-align">512 GB</td>
+                <td rowspan="2" colspan="1" class="light-red-text white-background left-align">16 GB</td>
+                <td rowspan="2" colspan="1" class="brown-text white-background right-align">512 GB</td>
                 <td class="dark-purple-text right-align">NVIDIA RTX 3050</td>
                 <td class="dark-blue-text right-align">86 Wh</td>
             </tr>
@@ -133,14 +144,14 @@
             </tr>
             <tr>
                 <td class="blue-text">Lenovo ThinkPad X1 Carbon</td>
-                <td rowspan="2" class="dark-red-text white-background left-align">Intel Core i7-1260P</td>
-                <td rowspan="2" class="light-red-text white-background left-align">8 GB</td>
+                <td rowspan="2" colspan="1" class="dark-red-text white-background left-align">Intel Core i7-1260P</td>
+                <td rowspan="2" colspan="1" class="light-red-text white-background left-align">8 GB</td>
                 <td class="brown-text right-align">1 TB</td>
-                <td rowspan="2" class="dark-purple-text white-background right-align">Intel Iris Xe</td>
+                <td rowspan="2" colspan="1" class="dark-purple-text white-background right-align">Intel Iris Xe</td>
                 <td class="dark-blue-text right-align">57 Wh</td>
             </tr>
             <tr>
-                <td class="blue-text">HP Spectre x360</td>
+                <td class="blue-text white-background">HP Spectre x360</td>
                 <td class="brown-text right-align">512 GB</td>
                 <td class="dark-blue-text right-align">66 Wh</td>
             </tr>
@@ -148,7 +159,7 @@
                 <td class="blue-text">Asus ROG Zephyrus G14</td>
                 <td class="dark-red-text">AMD Ryzen 9 6900HS</td>
                 <td class="light-red-text left-align">32 GB</td>
-                <td rowspan="2" class="brown-text white-background right-align">1 TB</td>
+                <td rowspan="2" colspan="1" class="brown-text white-background right-align">1 TB</td>
                 <td class="dark-purple-text right-align">AMD Radeon RX 6700S</td>
                 <td class="dark-blue-text right-align">76 Wh</td>
             </tr>
@@ -167,6 +178,6 @@
             </tr>
         </tbody>
     </table>
-    <p><a href="index.html">Powrót do strony głównej</a></p>
+    <p><a href="indexhtml.html">Powrót do strony głównej</a></p>
 </body>
 </html>
