@@ -178,6 +178,6 @@
             </tr>
         </tbody>
     </table>
-    <p><a href="indexhtml.html">Powrót do strony głównej</a></p>
+    <p><a href="http://www.indexhtml.pl">Powrót do strony głównej</a></p>
 </body>
 </html>
